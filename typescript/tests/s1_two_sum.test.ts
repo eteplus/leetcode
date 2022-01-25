@@ -1,4 +1,4 @@
-import { twoSum } from '~/problems/two-sum';
+import { twoSum } from '~/problems/s1_two_sum';
 
 test('Two Sum', () => {
   const examples: Array<{
