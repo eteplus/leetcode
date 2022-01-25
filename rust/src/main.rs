@@ -1,3 +1,7 @@
+#![allow(dead_code, unused_imports)]
+mod problems;
+use problems::*;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Leetcode with Rust\n");
 }
