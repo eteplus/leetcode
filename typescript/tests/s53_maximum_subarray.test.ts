@@ -1,12 +1,12 @@
-import { maxSubArray } from '~/problems/s53_maximum_subarray'
+import { maxSubArray } from '~/problems/s53_maximum_subarray';
 
 test('Maximum Subarray', () => {
   const examples: Array<{
-    input: number[],
-    output: number
+    input: number[];
+    output: number;
   }> = [
     {
-      input: [-2,1,-3,4,-1,2,1,-5,4],
+      input: [-2, 1, -3, 4, -1, 2, 1, -5, 4],
       output: 6,
     },
     {
@@ -14,7 +14,7 @@ test('Maximum Subarray', () => {
       output: 1,
     },
     {
-      input: [5,4,-1,7,8],
+      input: [5, 4, -1, 7, 8],
       output: 23,
     },
   ];
@@ -22,4 +22,4 @@ test('Maximum Subarray', () => {
     let output = maxSubArray(example.input);
     expect(output).toEqual(example.output);
   }
-})
+});
