@@ -1,3 +1,6 @@
+/**
+ * @link https://leetcode.com/problems/maximum-subarray
+ */
 export function maxSubArray(nums: number[]): number {
   let max = nums[0];
   let prev = nums[0];
