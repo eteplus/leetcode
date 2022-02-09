@@ -1,6 +1,7 @@
 import { twoSum } from '~/problems/s1_two_sum';
+import { name } from './utils';
 
-test('Two Sum', () => {
+describe('Two Sum', () => {
   const examples: Array<{
     input: [number[], number],
     output: number[]
@@ -20,7 +21,9 @@ test('Two Sum', () => {
   ];
   for (let example of examples) {
     const [nums, target] = example.input;
-    let output = twoSum(nums, target);
-    expect(output).toEqual(example.output);
+    test(name(example), () => {
+      let output = twoSum(nums, target);
+      expect(output).toEqual(example.output);
+    })
   }
 })

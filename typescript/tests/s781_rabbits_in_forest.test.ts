@@ -1,6 +1,7 @@
 import { numRabbits } from '~/problems/s781_rabbits_in_forest';
+import { name } from './utils';
 
-test('Rabbits in Forest', () => {
+describe('Rabbits in Forest', () => {
   const examples: Array<{
     input: number[];
     output: number;
@@ -31,7 +32,9 @@ test('Rabbits in Forest', () => {
     }
   ];
   for (let example of examples) {
-    let output = numRabbits(example.input);
-    expect(output).toEqual(example.output);
+    test(name(example), () => {
+      let output = numRabbits(example.input);
+      expect(output).toEqual(example.output);
+    })
   }
 });

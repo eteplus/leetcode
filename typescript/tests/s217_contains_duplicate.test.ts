@@ -1,6 +1,7 @@
 import { containsDuplicate } from '~/problems/s217_contains_duplicate';
+import { name } from './utils';
 
-test('Contains Duplicate', () => {
+describe('Contains Duplicate', () => {
   const examples: Array<{
     input: number[];
     output: boolean;
@@ -24,6 +25,8 @@ test('Contains Duplicate', () => {
   ];
   for (let example of examples) {
     let output = containsDuplicate(example.input);
-    expect(output).toEqual(example.output);
+    test(name(example), () => {
+      expect(output).toEqual(example.output);
+    })
   }
 });

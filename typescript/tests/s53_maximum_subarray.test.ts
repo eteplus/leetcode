@@ -1,6 +1,7 @@
 import { maxSubArray } from '~/problems/s53_maximum_subarray';
+import { name } from './utils';
 
-test('Maximum Subarray', () => {
+describe('Maximum Subarray', () => {
   const examples: Array<{
     input: number[];
     output: number;
@@ -19,7 +20,9 @@ test('Maximum Subarray', () => {
     },
   ];
   for (let example of examples) {
-    let output = maxSubArray(example.input);
-    expect(output).toEqual(example.output);
+    test(name(example), () => {
+      let output = maxSubArray(example.input);
+      expect(output).toEqual(example.output);
+    })
   }
 });
