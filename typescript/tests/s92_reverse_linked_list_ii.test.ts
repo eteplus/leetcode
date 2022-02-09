@@ -1,4 +1,4 @@
-import { createLinkNode, parseLinkNode, reverseBetween } from '~/problems/s92_reverse_linked-list-ii';
+import { createLinkNode, parseLinkNode, reverseBetween } from '~/problems/s92_reverse_linked_list_ii';
 import { name } from './utils';
 
 describe('Reverse Linked List II', () => {
