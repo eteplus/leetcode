@@ -43,8 +43,8 @@ export function reverseBetween(head: ListNode | null, left: number, right: numbe
   let prev: ListNode | null = dummy;
   let cur: ListNode | null = dummy.next;
   for (let i = 0; i < left - 1; i++) {
-    prev = prev?.next ?? null;
-    cur = cur?.next ?? null;
+    prev = cur;
+    cur = prev?.next ?? null;
   }
   for (let i = 0; i < right - left; i++) {
     if (cur === null || prev === null) {
