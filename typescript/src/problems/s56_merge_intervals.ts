@@ -1,3 +1,6 @@
+/**
+ * @link https://leetcode.com/problems/merge-intervals/
+ */
 export function merge(intervals: number[][]): number[][] {
   intervals.sort((a, b) => a[0] - b[0]);
   const result: number[][] = [intervals[0]];
