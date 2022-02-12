@@ -47,6 +47,10 @@ pub fn test() {
             input: 1010000,
             output: 1100000,
         },
+        Example {
+            input: 98368,
+            output: 98863,
+        },
     ];
     for example in examples {
         assert_eq!(Solution::maximum_swap(example.input), example.output);

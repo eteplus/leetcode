@@ -22,6 +22,10 @@ describe('Maximum Swap', () => {
       input: 1993,
       output: 9913,
     },
+    {
+      input: 98368,
+      output: 98863,
+    },
   ];
   for (let example of examples) {
     test(name(example), () => {
