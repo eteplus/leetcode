@@ -1,8 +1,10 @@
+use std::collections::HashMap;
+
 struct Solution;
 
 impl Solution {
     pub fn intersection(nums1: Vec<i32>, nums2: Vec<i32>) -> Vec<i32> {
-        let mut mapper = std::collections::HashMap::new();
+        let mut mapper = HashMap::new();
         for num in nums1 {
             mapper.insert(num, true);
         }

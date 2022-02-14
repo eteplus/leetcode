@@ -5,6 +5,7 @@ The solutions for Leetcode's problem
 | # | Ttitle | Solution | Diffculty |
 |---| ----- | -------- | ---------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Rust](./rust/src/problems/s1_two_sum.rs), [TypeScript](./typescript/src/problems/s1_two_sum.ts) | Easy |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Rust](./rust/src/problems/s21_merge_two_sorted_lists.rs), [TypeScript](./typescript/src/problems/s21_merge_two_sorted_lists.ts) | Easy |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Rust](./rust/src/problems/s53_maximum_subarray.rs), [TypeScript](./typescript/src/problems/s53_maximum_subarray.ts) | Easy |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Rust](./rust/src/problems/s56_merge_intervals.rs), [TypeScript](./typescript/src/problems/s56_merge_intervals.ts) | Medium |
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Rust](./rust/src/problems/s92_reverse_linked_list_ii.rs), [TypeScript](./typescript/src/problems/s92_reverse_linked_list_ii.ts) | Medium |
