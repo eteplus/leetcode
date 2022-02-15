@@ -7,7 +7,7 @@ export class ListNode {
   }
 }
 
-export function createLinkNode(nums: number[]): ListNode | null {
+export function createLinkedList(nums: number[]): ListNode | null {
   let head: ListNode | null = null;
   let cur: ListNode | null = null;
   for (let num of nums) {
@@ -22,7 +22,7 @@ export function createLinkNode(nums: number[]): ListNode | null {
   return head;
 }
 
-export function parseLinkNode(head: ListNode | null): number[] {
+export function parseLinkedList(head: ListNode | null): number[] {
   let result: number[] = [];
   let cur: ListNode | null = head;
   while (cur !== null) {

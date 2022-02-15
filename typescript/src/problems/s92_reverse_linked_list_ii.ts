@@ -1,4 +1,4 @@
-import { ListNode } from '~/libs/link_node'
+import { ListNode } from '~/libs/linked_list'
 
 /**
  * @link https://leetcode.com/problems/reverse-linked-list-ii/

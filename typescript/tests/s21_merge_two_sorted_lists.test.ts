@@ -1,5 +1,5 @@
 import { mergeTwoLists } from '~/problems/s21_merge_two_sorted_lists';
-import { createLinkNode, parseLinkNode } from '~/libs/link_node';
+import { createLinkedList, parseLinkedList } from '~/libs/linked_list';
 import { name } from './utils';
 
 describe('Merge Two Sorted Lists', () => {
@@ -30,10 +30,10 @@ describe('Merge Two Sorted Lists', () => {
   ];
   for (let example of examples) {
     test(name(example), () => {
-      const list1 = createLinkNode(example.input[0]);
-      const list2 = createLinkNode(example.input[1]);
+      const list1 = createLinkedList(example.input[0]);
+      const list2 = createLinkedList(example.input[1]);
       const output = mergeTwoLists(list1, list2);
-      expect(parseLinkNode(output)).toEqual(example.output);
+      expect(parseLinkedList(output)).toEqual(example.output);
     })
   }
 });

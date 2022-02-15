@@ -1,5 +1,5 @@
 import { reverseBetween } from '~/problems/s92_reverse_linked_list_ii';
-import { createLinkNode, parseLinkNode } from '~/libs/link_node';
+import { createLinkedList, parseLinkedList } from '~/libs/linked_list';
 import { name } from './utils';
 
 describe('Reverse Linked List II', () => {
@@ -18,9 +18,9 @@ describe('Reverse Linked List II', () => {
   ];
   for (let example of examples) {
     test(name(example), () => {
-      const head = createLinkNode(example.input[0]);
+      const head = createLinkedList(example.input[0]);
       const output = reverseBetween(head, example.input[1], example.input[2]);
-      expect(parseLinkNode(output)).toEqual(example.output);
+      expect(parseLinkedList(output)).toEqual(example.output);
     })
   }
 });
