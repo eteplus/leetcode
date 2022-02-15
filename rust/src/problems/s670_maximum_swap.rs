@@ -4,8 +4,8 @@ impl Solution {
     pub fn maximum_swap(num: i32) -> i32 {
         let mut nums: Vec<char> = num.to_string().chars().collect();
         let mut map = vec![usize::MAX; 10];
-        for i in 0..nums.len() {
-            let value = nums[i] as usize - '0' as usize;
+        for (i, num) in nums.iter().enumerate() {
+            let value = *num as usize - '0' as usize;
             map[value] = i;
         }
         for i in 0..nums.len() {

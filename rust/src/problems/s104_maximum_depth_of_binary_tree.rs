@@ -25,7 +25,7 @@ struct Solution;
 
 impl Solution {
     pub fn max_depth(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
-        return Solution::traverse(&root, 0);
+        Solution::traverse(&root, 0)
     }
 
     pub fn traverse(node: &Option<Rc<RefCell<TreeNode>>>, depth: i32) -> i32 {
@@ -33,7 +33,7 @@ impl Solution {
             Some(node) => {
                 let left_depth = Solution::traverse(&node.as_ref().borrow().left, depth + 1);
                 let right_depth = Solution::traverse(&node.as_ref().borrow().right, depth + 1);
-                return std::cmp::max(left_depth, right_depth);
+                std::cmp::max(left_depth, right_depth)
             }
             None => depth,
         }

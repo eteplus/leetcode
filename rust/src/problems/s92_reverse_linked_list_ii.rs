@@ -22,7 +22,7 @@ impl Solution {
         if head.is_none() {
             return head;
         }
-        let mut dummy = Some(Box::new(ListNode { val: 0, next: head}));
+        let mut dummy = Some(Box::new(ListNode { val: 0, next: head }));
         let mut previous = &mut dummy;
         for _ in 0..left - 1 {
             previous = &mut previous.as_mut().unwrap().next;
@@ -43,13 +43,13 @@ impl Solution {
 }
 
 fn create_linked_list(nums: Vec<i32>) -> Option<Box<ListNode>> {
-    if nums.len() == 0 {
+    if nums.is_empty() {
         return None;
     }
     let mut head = Some(Box::new(ListNode::new(nums[0])));
     let mut current = &mut head;
-    for i in 1..nums.len() {
-        current.as_mut().unwrap().next = Some(Box::new(ListNode::new(nums[i])));
+    for num in nums.iter().skip(1) {
+        current.as_mut().unwrap().next = Some(Box::new(ListNode::new(*num)));
         current = &mut current.as_mut().unwrap().next;
     }
     head

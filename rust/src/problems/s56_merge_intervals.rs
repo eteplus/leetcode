@@ -4,12 +4,12 @@ impl Solution {
     pub fn merge(mut intervals: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
         intervals.sort_by(|a, b| a[0].cmp(&b[0]));
         let mut result = vec![intervals[0].clone()];
-        for i in 1..intervals.len() {
+        for interval in intervals.iter().skip(1) {
             let last = result.last_mut().unwrap();
-            if intervals[i][0] <= last[1] {
-                last[1] = std::cmp::max(last[1], intervals[i][1]);
+            if interval[0] <= last[1] {
+                last[1] = std::cmp::max(last[1], interval[1]);
             } else {
-                result.push(intervals[i].clone());
+                result.push(interval.clone());
             }
         }
         result

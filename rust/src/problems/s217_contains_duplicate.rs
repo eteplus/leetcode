@@ -2,7 +2,7 @@ struct Solution;
 
 impl Solution {
     pub fn contains_duplicate(mut nums: Vec<i32>) -> bool {
-        nums.sort();
+        nums.sort_unstable();
         let mut i = 1;
         while i < nums.len() {
             if nums[i] == nums[i - 1] {
