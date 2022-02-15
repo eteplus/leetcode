@@ -42,12 +42,7 @@ impl Solution {
     }
 }
 
-struct Example {
-    input: (Vec<i32>, i32, i32),
-    output: Vec<i32>,
-}
-
-fn create_link_node(nums: Vec<i32>) -> Option<Box<ListNode>> {
+fn create_linked_list(nums: Vec<i32>) -> Option<Box<ListNode>> {
     if nums.len() == 0 {
         return None;
     }
@@ -60,7 +55,7 @@ fn create_link_node(nums: Vec<i32>) -> Option<Box<ListNode>> {
     head
 }
 
-fn parse_link_node(head: Option<Box<ListNode>>) -> Vec<i32> {
+fn parse_linked_list(head: Option<Box<ListNode>>) -> Vec<i32> {
     let mut nums: Vec<i32> = vec![];
     let mut node = head;
     while let Some(n) = node {
@@ -68,6 +63,11 @@ fn parse_link_node(head: Option<Box<ListNode>>) -> Vec<i32> {
         node = n.next;
     }
     nums
+}
+
+struct Example {
+    input: (Vec<i32>, i32, i32),
+    output: Vec<i32>,
 }
 
 #[test]
@@ -78,8 +78,8 @@ pub fn test() {
     }];
     for example in examples {
         let (nums, left, right) = example.input;
-        let head = create_link_node(nums);
+        let head = create_linked_list(nums);
         let output = Solution::reverse_between(head, left, right);
-        assert_eq!(create_link_node(example.output), output);
+        assert_eq!(create_linked_list(example.output), output);
     }
 }

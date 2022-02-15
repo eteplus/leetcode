@@ -74,7 +74,7 @@ struct Example {
     output: Vec<i32>,
 }
 
-fn create_link_node(nums: Vec<i32>) -> Option<Box<ListNode>> {
+fn create_linked_list(nums: Vec<i32>) -> Option<Box<ListNode>> {
     if nums.len() == 0 {
         return None;
     }
@@ -87,7 +87,7 @@ fn create_link_node(nums: Vec<i32>) -> Option<Box<ListNode>> {
     head
 }
 
-fn parse_link_node(head: Option<Box<ListNode>>) -> Vec<i32> {
+fn parse_linked_list(head: Option<Box<ListNode>>) -> Vec<i32> {
     let mut nums: Vec<i32> = vec![];
     let mut node = head;
     while let Some(n) = node {
@@ -123,7 +123,7 @@ pub fn test() {
     ];
     for example in examples {
         let (list1, list2) = example.input;
-        let output = Solution::merge_two_lists_from_recusive(create_link_node(list1), create_link_node(list2));
-        assert_eq!(create_link_node(example.output), output);
+        let output = Solution::merge_two_lists_from_recusive(create_linked_list(list1), create_linked_list(list2));
+        assert_eq!(create_linked_list(example.output), output);
     }
 }

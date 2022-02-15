@@ -26,7 +26,7 @@ describe('Maximum Depth of Binary Tree', () => {
   ];
   for (const example of examples) {
     test(name(example), () => {
-      const root = createBinaryTree(example.input, null, 0);
+      const root = createBinaryTree(example.input, 0);
       const output = maxDepth(root);
       expect(output).toEqual(example.output);
     });

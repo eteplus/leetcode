@@ -12,15 +12,14 @@ export class TreeNode {
   }
 }
 
-export function createBinaryTree(nums: Array<number | null>, root: TreeNode | null, index: number): TreeNode | null {
+export function createBinaryTree(nums: Array<number | null>, index: number): TreeNode | null {
   if (index < nums.length) {
-    let node = new TreeNode(nums[index] as number);
-    root = node;
-    root.left = createBinaryTree(nums, root.left, index * 2 + 1);
-    root.right = createBinaryTree(nums, root.right, index * 2 + 2);
-    return root;
+    const node = new TreeNode(nums[index] as number);
+    node.left = createBinaryTree(nums, index * 2 + 1);
+    node.right = createBinaryTree(nums, index * 2 + 2);
+    return node;
   }
-  return root;
+  return null;
 }
 
 export function parseBinaryTree(root: TreeNode | null): Array<Number | null> {
