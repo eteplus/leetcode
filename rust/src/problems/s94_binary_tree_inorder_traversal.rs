@@ -23,20 +23,47 @@ impl TreeNode {
 struct Solution;
 
 impl Solution {
-    pub fn max_depth(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
-        Solution::traverse(root, 0)
+    pub fn preorder_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
+        if root.is_none() {
+            return vec![];
+        }
+        fn traverse(node: Option<Rc<RefCell<TreeNode>>>, result: &mut Vec<i32>) {
+            if node.is_none() {
+                return;
+            }
+            if let Some(n) = node {
+                let node = n.borrow();
+                traverse(node.left.clone(), result);
+                result.push(node.val);
+                traverse(node.right.clone(), result);
+            }
+        }
+        let mut result: Vec<i32> = vec![];
+        traverse(root, &mut result);
+        result
     }
 
-    pub fn traverse(node: Option<Rc<RefCell<TreeNode>>>, depth: i32) -> i32 {
-        match node {
-            Some(value) => {
-                let node = value.borrow();
-                let left_depth = Solution::traverse(node.left.clone(), depth + 1);
-                let right_depth = Solution::traverse(node.right.clone(), depth + 1);
-                std::cmp::max(left_depth, right_depth)
-            }
-            None => depth,
+    pub fn preorder_traversal_from_stack(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
+        if root.is_none() {
+            return vec![];
         }
+        let mut stack = vec![];
+        let mut result: Vec<i32> = vec![];
+        let mut current = root;
+        while current.is_some() || !stack.is_empty() {
+            while let Some(item) = current {
+                stack.push(Some(item.clone()));
+                current = item.borrow().left.clone();
+            }
+            if let Some(item) = stack.pop() {
+                if let Some(node) = item {
+                    let node = node.borrow();
+                    result.push(node.val);
+                    current = node.right.clone();
+                }
+            }
+        }
+        result
     }
 }
 
@@ -57,7 +84,7 @@ fn create_binary_tree(nums: Vec<Option<i32>>, index: usize) -> Option<Rc<RefCell
 
 struct Example {
     input: Vec<Option<i32>>,
-    output: i32,
+    output: Vec<i32>,
 }
 
 #[test]
@@ -77,15 +104,15 @@ pub fn test() {
                 Some(15),
                 Some(7),
             ],
-            output: 4,
+            output: vec![11, 9, 15, 13, 7, 3, 6, 20, 7],
         },
         Example {
             input: vec![Some(1), None, Some(2)],
-            output: 2,
+            output: vec![1, 2],
         },
         Example {
             input: vec![Some(3), Some(9), Some(20), None, None, Some(15), Some(7)],
-            output: 3,
+            output: vec![9, 3, 15, 20, 7],
         },
         Example {
             input: vec![
@@ -99,12 +126,12 @@ pub fn test() {
                 Some(6),
                 Some(6),
             ],
-            output: 4,
+            output: vec![6, 4, 6, 2, 5, 1, 6, 3, 6],
         },
     ];
     for example in examples {
         let root = create_binary_tree(example.input, 0);
-        let output = Solution::max_depth(root);
+        let output = Solution::preorder_traversal_from_stack(root);
         assert_eq!(output, example.output);
     }
 }
