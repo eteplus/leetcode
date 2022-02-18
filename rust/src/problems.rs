@@ -9,5 +9,6 @@ pub mod s144_binary_tree_preorder_traversal;
 pub mod s217_contains_duplicate;
 pub mod s349_intersection_of_two_arrays;
 pub mod s350_intersection_of_two_arrays_ii;
+pub mod s543_diameter_of_binary_tree;
 pub mod s670_maximum_swap;
 pub mod s781_rabbits_in_forest;
