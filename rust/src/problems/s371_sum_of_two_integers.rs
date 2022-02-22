@@ -4,7 +4,7 @@ impl Solution {
     pub fn get_sum(mut a: i32, mut b: i32) -> i32 {
         while (a & b) != 0 {
             let t = (a & b) << 1;
-            b = a ^ b;
+            b ^= a;
             a = t;
         }
         a ^ b
