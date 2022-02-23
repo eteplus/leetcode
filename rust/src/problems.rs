@@ -9,6 +9,7 @@ pub mod s144_binary_tree_preorder_traversal;
 pub mod s206_reverse_linked_list;
 pub mod s217_contains_duplicate;
 pub mod s226_invert_binary_tree;
+pub mod s238_product_of_array_except_self;
 pub mod s268_missing_number;
 pub mod s349_intersection_of_two_arrays;
 pub mod s350_intersection_of_two_arrays_ii;
