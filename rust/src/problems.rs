@@ -5,6 +5,7 @@ pub mod s56_merge_intervals;
 pub mod s92_reverse_linked_list_ii;
 pub mod s94_binary_tree_inorder_traversal;
 pub mod s104_maximum_depth_of_binary_tree;
+pub mod s143_reorder_list;
 pub mod s144_binary_tree_preorder_traversal;
 pub mod s206_reverse_linked_list;
 pub mod s217_contains_duplicate;
