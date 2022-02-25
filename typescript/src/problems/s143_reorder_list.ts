@@ -1,5 +1,10 @@
 import { ListNode } from '~/libs/linked_list';
 
+/**
+ * @link https://leetcode.com/problems/reorder-list/
+ * @param head
+ * @returns
+ */
 export function reorderList(head: ListNode | null): void {
   if (!head) {
     return;

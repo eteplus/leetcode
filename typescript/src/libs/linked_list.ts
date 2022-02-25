@@ -9,25 +9,48 @@ export class ListNode {
 
 export function createLinkedList(nums: number[]): ListNode | null {
   let head: ListNode | null = null;
-  let cur: ListNode | null = null;
+  let curr: ListNode | null = null;
   for (let num of nums) {
     if (head === null) {
       head = new ListNode(num);
-      cur = head;
-    } else if (cur !== null) {
-      cur.next = new ListNode(num);
-      cur = cur.next;
+      curr = head;
+    } else if (curr !== null) {
+      curr.next = new ListNode(num);
+      curr = curr.next;
     }
+  }
+  return head;
+}
+
+export function createCycleLinkedList(nums: number[], pos: number): ListNode | null {
+  let head: ListNode | null = null;
+  let curr: ListNode | null = null;
+  let cycle: ListNode | null = null;
+  for (let i = 0; i < nums.length; i++) {
+    const num = nums[i];
+    if (!head) {
+      head = new ListNode(num);
+      curr = head;
+    } else if (curr !== null) {
+      curr.next = new ListNode(num);
+      curr = curr.next;
+    }
+    if (i === pos) {
+      cycle = curr;
+    }
+  }
+  if (curr) {
+    curr.next = cycle;
   }
   return head;
 }
 
 export function parseLinkedList(head: ListNode | null): number[] {
   let result: number[] = [];
-  let cur: ListNode | null = head;
-  while (cur !== null) {
-    result.push(cur.val);
-    cur = cur.next;
+  let curr: ListNode | null = head;
+  while (curr !== null) {
+    result.push(curr.val);
+    curr = curr.next;
   }
   return result;
 }
