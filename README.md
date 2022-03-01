@@ -16,6 +16,7 @@ The solutions for Leetcode's problem
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [TypeScript](./typescript/src/problems/s141_linked_list_cycle.ts) | Easy |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | [Rust](./rust/src/problems/s143_reorder_list.rs), [TypeScript](./typescript/src/problems/s143_reorder_list.ts) | Medium |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Rust](./rust/src/problems/s144_binary_tree_preorder_traversal.rs), [TypeScript](./typescript/src/problems/s144_binary_tree_preorder_traversal.ts) | Easy |
+| 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [Rust](./rust/src/problems/s152_maximum_product_subarray.rs), [TypeScript](./typescript/src/problems/s152_maximum_product_subarray.ts) | Medium |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Rust](./rust/src/problems/s206_reverse_linked_list.rs), [TypeScript](./typescript/src/problems/s206_reverse_linked_list.ts) | Easy |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Rust](./rust/src/problems/s217_contains_duplicate.rs), [TypeScript](./typescript/src/problems/s217_contains_duplicate.ts) | Easy |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Rust](./rust/src/problems/s226_invert_binary_tree.rs), [TypeScript](./typescript/src/problems/s226_invert_binary_tree.ts) | Easy |

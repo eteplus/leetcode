@@ -9,6 +9,7 @@ pub mod s94_binary_tree_inorder_traversal;
 pub mod s104_maximum_depth_of_binary_tree;
 pub mod s143_reorder_list;
 pub mod s144_binary_tree_preorder_traversal;
+pub mod s152_maximum_product_subarray;
 pub mod s206_reverse_linked_list;
 pub mod s217_contains_duplicate;
 pub mod s226_invert_binary_tree;
