@@ -20,7 +20,7 @@ impl Solution {
                 return 0;
             }
             if x > 0 {
-                if y >= 10 && y <= 26 {
+                if (10..=26).contains(&y) {
                     dp[i] = dp[i - 1] + if i < 2 { 1 } else { dp[i - 2] };
                 } else {
                     dp[i] = dp[i - 1]

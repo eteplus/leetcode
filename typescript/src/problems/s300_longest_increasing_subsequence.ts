@@ -4,6 +4,7 @@
  */
 export function lengthOfLIS(nums: number[]): number {
   const dp: number[] = [];
+  let max = 1;
   for (let i = 0; i < nums.length; i++) {
     if (!dp[i]) {
       dp[i] = 1;
@@ -13,9 +14,6 @@ export function lengthOfLIS(nums: number[]): number {
         dp[i] = Math.max(dp[i], dp[j] + 1);
       }
     }
-  }
-  let max = 0;
-  for (let i = 0; i < dp.length; i++) {
     max = Math.max(max, dp[i]);
   }
   return max;

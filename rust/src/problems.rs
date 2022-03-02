@@ -15,6 +15,7 @@ pub mod s217_contains_duplicate;
 pub mod s226_invert_binary_tree;
 pub mod s238_product_of_array_except_self;
 pub mod s268_missing_number;
+pub mod s300_longest_increasing_subsequence;
 pub mod s322_coin_change;
 pub mod s349_intersection_of_two_arrays;
 pub mod s350_intersection_of_two_arrays_ii;
