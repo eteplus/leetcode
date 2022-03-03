@@ -9,9 +9,7 @@ export function canJump(nums: number[]): boolean {
     if (i > max) {
       return false;
     }
-    if (i <= max) {
-      max = Math.max(max, i + nums[i]);
-    }
+    max = Math.max(max, i + nums[i]);
     if (max >= len - 1) {
       return true;
     }
