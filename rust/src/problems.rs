@@ -4,6 +4,7 @@ pub mod s21_merge_two_sorted_lists;
 pub mod s53_maximum_subarray;
 pub mod s55_jump_game;
 pub mod s56_merge_intervals;
+pub mod s62_unique_paths;
 pub mod s70_climbing_stairs;
 pub mod s91_decode_ways;
 pub mod s92_reverse_linked_list_ii;

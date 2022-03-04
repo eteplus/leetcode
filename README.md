@@ -10,6 +10,7 @@ The solutions for Leetcode's problem
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Rust](./rust/src/problems/s53_maximum_subarray.rs), [TypeScript](./typescript/src/problems/s53_maximum_subarray.ts) | Easy |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Rust](./rust/src/problems/s55_jump_game.rs), [TypeScript](./typescript/src/problems/s55_jump_game.ts) | Medium |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Rust](./rust/src/problems/s56_merge_intervals.rs), [TypeScript](./typescript/src/problems/s56_merge_intervals.ts) | Medium |
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Rust](./rust/src/problems/s62_unique_paths.rs), [TypeScript](./typescript/src/problems/s62_unique_paths.ts) | Medium |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Rust](./rust/src/problems/s70_climbing_stairs.rs), [TypeScript](./typescript/src/problems/s70_climbing_stairs.ts) | Easy |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | [Rust](./rust/src/problems/s91_decode_ways.rs), [TypeScript](./typescript/src/problems/s91_decode_ways.ts) | Medium |
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Rust](./rust/src/problems/s92_reverse_linked_list_ii.rs), [TypeScript](./typescript/src/problems/s92_reverse_linked_list_ii.ts) | Medium |

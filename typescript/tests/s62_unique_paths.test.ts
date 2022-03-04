@@ -10,10 +10,10 @@ describe('Unique Paths', () => {
       input: [3, 2],
       output: 3,
     },
-    // {
-    //   input: [3, 7],
-    //   output: 28,
-    // },
+    {
+      input: [3, 7],
+      output: 28,
+    },
   ];
   for (const example of examples) {
     test(name(example), () => {

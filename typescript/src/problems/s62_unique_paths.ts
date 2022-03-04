@@ -6,12 +6,10 @@ export function uniquePaths(m: number, n: number): number {
   for (let i = 0; i < m; i++) {
     dp[i] = [];
     for (let j = 0; j < n; j++) {
-      if (i === 0) {
+      if (i === 0 || j === 0) {
         dp[i][j] = 1;
       } else {
-        let left = i - 1 >= 0 ? dp[i - 1][j] : 0;
-        let top = j - 1 >= 0 ? dp[i][j - 1] : 0;
-        dp[i][j] = left + top
+        dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
       }
     }
   }
