@@ -1,7 +1,7 @@
 import { isPalindrome } from '~/problems/s9_palindrome_number';
 import { name } from './utils';
 
-describe('Reorder List', () => {
+describe('Palindrome Number', () => {
   const examples: Array<{
     input: number;
     output: boolean;
