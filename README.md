@@ -6,6 +6,7 @@ The solutions for Leetcode's problem
 |---| ----- | -------- | ---------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Rust](./rust/src/problems/s1_two_sum.rs), [TypeScript](./typescript/src/problems/s1_two_sum.ts) | Easy |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Rust](./rust/src/problems/s9_palindrome_number.rs), [TypeScript](./typescript/src/problems/s9_palindrome_number.ts) | Easy |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Rust](./rust/src/problems/s20_valid_parentheses.rs), [TypeScript](./typescript/src/problems/s20_valid_parentheses.ts) | Easy |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Rust](./rust/src/problems/s21_merge_two_sorted_lists.rs), [TypeScript](./typescript/src/problems/s21_merge_two_sorted_lists.ts) | Easy |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Rust](./rust/src/problems/s53_maximum_subarray.rs), [TypeScript](./typescript/src/problems/s53_maximum_subarray.ts) | Easy |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Rust](./rust/src/problems/s55_jump_game.rs), [TypeScript](./typescript/src/problems/s55_jump_game.ts) | Medium |
