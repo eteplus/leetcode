@@ -18,6 +18,6 @@ describe('Best Time to Buy and Sell Stock', () => {
   for (const example of examples) {
     test(name(example), () => {
       expect(maxProfit(example.input)).toEqual(example.output);
-    })
+    });
   }
 });

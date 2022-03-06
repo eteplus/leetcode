@@ -11,6 +11,7 @@ pub mod s91_decode_ways;
 pub mod s92_reverse_linked_list_ii;
 pub mod s94_binary_tree_inorder_traversal;
 pub mod s104_maximum_depth_of_binary_tree;
+pub mod s121_best_time_to_buy_and_sell_stock;
 pub mod s143_reorder_list;
 pub mod s144_binary_tree_preorder_traversal;
 pub mod s152_maximum_product_subarray;
