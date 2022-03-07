@@ -15,6 +15,7 @@ pub mod s121_best_time_to_buy_and_sell_stock;
 pub mod s143_reorder_list;
 pub mod s144_binary_tree_preorder_traversal;
 pub mod s152_maximum_product_subarray;
+pub mod s167_two_sum_ii_input_array_is_sorted;
 pub mod s206_reverse_linked_list;
 pub mod s217_contains_duplicate;
 pub mod s226_invert_binary_tree;
