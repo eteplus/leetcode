@@ -16,6 +16,7 @@ pub mod s125_valid_palindrome;
 pub mod s143_reorder_list;
 pub mod s144_binary_tree_preorder_traversal;
 pub mod s152_maximum_product_subarray;
+pub mod s153_find_minimum_in_rotated_sorted_array;
 pub mod s167_two_sum_ii_input_array_is_sorted;
 pub mod s206_reverse_linked_list;
 pub mod s217_contains_duplicate;
