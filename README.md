@@ -30,6 +30,7 @@ The solutions for Leetcode's problem
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Rust](./rust/src/problems/s217_contains_duplicate.rs), [TypeScript](./typescript/src/problems/s217_contains_duplicate.ts) | Easy |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Rust](./rust/src/problems/s226_invert_binary_tree.rs), [TypeScript](./typescript/src/problems/s226_invert_binary_tree.ts) | Easy |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Rust](./rust/src/problems/s238_product_of_array_except_self.rs), [TypeScript](./typescript/src/problems/s238_product_of_array_except_self.ts) | Medium |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Rust](./rust/src/problems/s242_valid_anagram.rs), [TypeScript](./typescript/src/problems/s242_valid_anagram.ts) | Easy |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | [Rust](./rust/src/problems/s268_missing_number.rs), [TypeScript](./typescript/src/problems/s268_missing_number.ts) | Easy |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Rust](./rust/src/problems/s300_longest_increasing_subsequence.rs), [TypeScript](./typescript/src/problems/s300_longest_increasing_subsequence.ts) | Medium |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [Rust](./rust/src/problems/s322_coin_change.rs), [TypeScript](./typescript/src/problems/s322_coin_change.ts) | Medium |
