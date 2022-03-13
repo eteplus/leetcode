@@ -20,6 +20,7 @@ pub mod s152_maximum_product_subarray;
 pub mod s153_find_minimum_in_rotated_sorted_array;
 pub mod s167_two_sum_ii_input_array_is_sorted;
 pub mod s206_reverse_linked_list;
+pub mod s213_house_robber_ii;
 pub mod s217_contains_duplicate;
 pub mod s226_invert_binary_tree;
 pub mod s238_product_of_array_except_self;
