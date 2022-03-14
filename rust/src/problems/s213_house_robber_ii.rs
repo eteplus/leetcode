@@ -12,12 +12,12 @@ impl Solution {
         Solution::get_max(&nums, 0, len - 2).max(Solution::get_max(&nums, 1, len - 1))
     }
 
-    pub fn get_max(nums: &Vec<i32>, start: usize, end: usize) -> i32 {
+    pub fn get_max(nums: &[i32], start: usize, end: usize) -> i32 {
         let mut prev = 0;
         let mut curr = 0;
-        for i in start..=end {
+        for num in nums.iter().take(end + 1).skip(start) {
             let temp = curr;
-            curr = curr.max(prev + nums[i]);
+            curr = curr.max(prev + num);
             prev = temp;
         }
         curr
