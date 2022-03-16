@@ -29,6 +29,7 @@ pub mod s242_valid_anagram;
 pub mod s268_missing_number;
 pub mod s300_longest_increasing_subsequence;
 pub mod s322_coin_change;
+pub mod s338_counting_bits;
 pub mod s349_intersection_of_two_arrays;
 pub mod s350_intersection_of_two_arrays_ii;
 pub mod s371_sum_of_two_integers;
