@@ -1,7 +1,7 @@
 import { hammingWeight } from '~/problems/s191_number_of_1_bits'
 import { name } from './utils';
 
-describe('Counting Bits', () => {
+describe('Number of 1 Bits', () => {
   const examples: Array<{
     input: string;
     output: number;
