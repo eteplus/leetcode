@@ -8,6 +8,7 @@ The solutions for Leetcode's problem
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Rust](./rust/src/problems/s9_palindrome_number.rs), [TypeScript](./typescript/src/problems/s9_palindrome_number.ts) | Easy |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Rust](./rust/src/problems/s20_valid_parentheses.rs), [TypeScript](./typescript/src/problems/s20_valid_parentheses.ts) | Easy |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Rust](./rust/src/problems/s21_merge_two_sorted_lists.rs), [TypeScript](./typescript/src/problems/s21_merge_two_sorted_lists.ts) | Easy |
+| 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Rust](./rust/src/problems/s33_search_in_rotated_sorted_array.rs), [TypeScript](./typescript/src/problems/s33_search_in_rotated_sorted_array.ts) | Medium |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Rust](./rust/src/problems/s53_maximum_subarray.rs), [TypeScript](./typescript/src/problems/s53_maximum_subarray.ts) | Easy |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Rust](./rust/src/problems/s55_jump_game.rs), [TypeScript](./typescript/src/problems/s55_jump_game.ts) | Medium |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Rust](./rust/src/problems/s56_merge_intervals.rs), [TypeScript](./typescript/src/problems/s56_merge_intervals.ts) | Medium |
