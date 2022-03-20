@@ -1,5 +1,6 @@
 pub mod s1_two_sum;
 pub mod s9_palindrome_number;
+pub mod s11_container_with_most_water;
 pub mod s20_valid_parentheses;
 pub mod s21_merge_two_sorted_lists;
 pub mod s33_search_in_rotated_sorted_array;

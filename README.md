@@ -6,6 +6,7 @@ The solutions for Leetcode's problem
 |---| ----- | -------- | ---------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Rust](./rust/src/problems/s1_two_sum.rs), [TypeScript](./typescript/src/problems/s1_two_sum.ts) | Easy |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Rust](./rust/src/problems/s9_palindrome_number.rs), [TypeScript](./typescript/src/problems/s9_palindrome_number.ts) | Easy |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Rust](./rust/src/problems/s11_container_with_most_water.rs), [TypeScript](./typescript/src/problems/s11_container_with_most_water.ts) | Medium |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Rust](./rust/src/problems/s20_valid_parentheses.rs), [TypeScript](./typescript/src/problems/s20_valid_parentheses.ts) | Easy |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Rust](./rust/src/problems/s21_merge_two_sorted_lists.rs), [TypeScript](./typescript/src/problems/s21_merge_two_sorted_lists.ts) | Easy |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Rust](./rust/src/problems/s33_search_in_rotated_sorted_array.rs), [TypeScript](./typescript/src/problems/s33_search_in_rotated_sorted_array.ts) | Medium |
