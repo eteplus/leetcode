@@ -1,19 +1,16 @@
+/**
+ * @link https://leetcode.com/problems/combination-sum-iv/
+ * @param nums
+ * @param target
+ * @returns
+ */
 export function combinationSum4(nums: number[], target: number): number {
-  const dp: number[] = [0];
-  nums.sort((a, b) => a - b);
+  const dp: number[] = new Array(target + 1).fill(0);
+  dp[0] = 1;
   for (let i = 1; i <= target; i++) {
-    if (dp[i] === undefined) {
-      dp[i] = 0;
-    }
     for (const num of nums) {
-      if (num > target) {
-        break;
-      }
-      if (num <= target && !dp[num]) {
-        dp[num] = 1;
-      }
       if (i - num >= 0) {
-        // console.log('i: %s, num: %s', i, num, dp[i], dp[i - num]);
+        console.log('i: %s, num: %s', i, num, dp[i], dp[i - num]);
         dp[i] += dp[i - num];
       }
     }
