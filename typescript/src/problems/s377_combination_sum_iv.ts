@@ -10,7 +10,7 @@ export function combinationSum4(nums: number[], target: number): number {
   for (let i = 1; i <= target; i++) {
     for (const num of nums) {
       if (i - num >= 0) {
-        console.log('i: %s, num: %s', i, num, dp[i], dp[i - num]);
+        // console.log('i: %s, num: %s', i, num, dp[i], dp[i - num]);
         dp[i] += dp[i - num];
       }
     }
