@@ -42,3 +42,4 @@ pub mod s435_non_overlapping_intervals;
 pub mod s543_diameter_of_binary_tree;
 pub mod s670_maximum_swap;
 pub mod s781_rabbits_in_forest;
+pub mod s1143_longest_common_subsequence;

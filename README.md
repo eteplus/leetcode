@@ -49,3 +49,4 @@ The solutions for Leetcode's problem
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Rust](./rust/src/problems/s543_diameter_of_binary_tree.rs), [TypeScript](./typescript/src/problems/s543_diameter_of_binary_tree.ts) | Easy |
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | [Rust](./rust/src/problems/s670_maximum_swap.rs), [TypeScript](./typescript/src/problems/s670_maximum_swap.ts) | Medium |
 | 781 | [Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/) | [Rust](./rust/src/problems/s781_rabbits_in_forest.rs), [TypeScript](./typescript/src/problems/s781_rabbits_in_forest.ts) | Medium |
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Rust](./rust/src/problems/s1143_longest_common_subsequence.rs), [TypeScript](./typescript/src/problems/s1143_longest_common_subsequence.ts) | Medium |
