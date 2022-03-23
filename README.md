@@ -22,6 +22,7 @@ The solutions for Leetcode's problem
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Rust](./rust/src/problems/s104_maximum_depth_of_binary_tree.rs), [TypeScript](./typescript/src/problems/s104_maximum_depth_of_binary_tree.ts) | Easy |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Rust](./rust/src/problems/s121_best_time_to_buy_and_sell_stock.rs), [TypeScript](./typescript/src/problems/s121_best_time_to_buy_and_sell_stock.ts) | Easy |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Rust](./rust/src/problems/s125_valid_palindrome.rs), [TypeScript](./typescript/src/problems/s125_valid_palindrome.ts) | Easy |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | [Rust](./rust/src/problems/s139_word_break.rs), [TypeScript](./typescript/src/problems/s139_word_break.ts) | Medium |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [TypeScript](./typescript/src/problems/s141_linked_list_cycle.ts) | Easy |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | [Rust](./rust/src/problems/s143_reorder_list.rs), [TypeScript](./typescript/src/problems/s143_reorder_list.ts) | Medium |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Rust](./rust/src/problems/s144_binary_tree_preorder_traversal.rs), [TypeScript](./typescript/src/problems/s144_binary_tree_preorder_traversal.ts) | Easy |
