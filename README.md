@@ -5,6 +5,7 @@ The solutions for Leetcode's problem
 | # | Ttitle | Solution | Diffculty |
 |---| ----- | -------- | ---------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Rust](./rust/src/problems/s1_two_sum.rs), [TypeScript](./typescript/src/problems/s1_two_sum.ts) | Easy |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Rust](./rust/src/problems/s5_longest_palindromic_substring.rs), [TypeScript](./typescript/src/problems/s5_longest_palindromic_substring.ts) | Medium |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Rust](./rust/src/problems/s9_palindrome_number.rs), [TypeScript](./typescript/src/problems/s9_palindrome_number.ts) | Easy |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Rust](./rust/src/problems/s11_container_with_most_water.rs), [TypeScript](./typescript/src/problems/s11_container_with_most_water.ts) | Medium |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Rust](./rust/src/problems/s20_valid_parentheses.rs), [TypeScript](./typescript/src/problems/s20_valid_parentheses.ts) | Easy |

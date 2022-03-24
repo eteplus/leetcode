@@ -10,6 +10,7 @@ export function longestPalindrome(s: string): string {
         left -= 1;
         right += 1;
       }
+      // console.log('left: %s right:%s', left, right, right - left - 1);
       return right - left - 1;
   }
   for (let i = 0; i < s.length; i++) {

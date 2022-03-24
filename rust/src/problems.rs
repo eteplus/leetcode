@@ -1,4 +1,5 @@
 pub mod s1_two_sum;
+pub mod s5_longest_palindromic_substring;
 pub mod s9_palindrome_number;
 pub mod s11_container_with_most_water;
 pub mod s20_valid_parentheses;
