@@ -1,4 +1,4 @@
-import { groupAnagrams } from '~/problems/s40_group_anagrams';
+import { groupAnagrams } from '~/problems/s49_group_anagrams';
 import { name } from './utils';
 
 describe('Group Anagrams', () => {
