@@ -1,7 +1,7 @@
 import { countSubstrings } from '~/problems/s647_palindromic_substrings';
 import { name } from './utils';
 
-describe('', () => {
+describe('Palindromic Substrings', () => {
   const examples: Array<{
     input: string;
     output: number;
