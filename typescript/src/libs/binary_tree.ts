@@ -22,6 +22,20 @@ export function createBinaryTree(nums: Array<number | null>, index: number): Tre
   return null;
 }
 
+export function findNode(root: TreeNode | null, val: number): TreeNode | null {
+  if (root === null) {
+    return null;
+  }
+  if (root.val === val) {
+    return root;
+  }
+  const left = findNode(root.left, val);
+  if (left) {
+    return left;
+  }
+  return findNode(root.right, val);
+}
+
 export function parseBinaryTree(root: TreeNode | null): Array<Number | null> {
   if (root === null) {
     return [];
