@@ -45,6 +45,7 @@ pub mod s371_sum_of_two_integers;
 pub mod s377_combination_sum_iv;
 pub mod s435_non_overlapping_intervals;
 pub mod s543_diameter_of_binary_tree;
+pub mod s572_subtree_of_another_tree;
 pub mod s647_palindromic_substrings;
 pub mod s670_maximum_swap;
 pub mod s781_rabbits_in_forest;

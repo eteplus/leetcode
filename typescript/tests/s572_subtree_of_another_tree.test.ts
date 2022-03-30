@@ -2,7 +2,7 @@ import { isSubtree } from '~/problems/s572_subtree_of_another_tree';
 import { createBinaryTree } from '~/libs/binary_tree';
 import { name } from './utils';
 
-describe('Same Tree', () => {
+describe('Subtree of Another Tree', () => {
   const examples: Array<{
     input: Array<Array<number | null>>;
     output: boolean;
