@@ -17,6 +17,7 @@ pub mod s92_reverse_linked_list_ii;
 pub mod s94_binary_tree_inorder_traversal;
 pub mod s98_validate_binary_search_tree;
 pub mod s100_same_tree;
+pub mod s102_binary_tree_level_order_traversal;
 pub mod s104_maximum_depth_of_binary_tree;
 pub mod s121_best_time_to_buy_and_sell_stock;
 pub mod s125_valid_palindrome;
