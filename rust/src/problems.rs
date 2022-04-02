@@ -34,6 +34,7 @@ pub mod s206_reverse_linked_list;
 pub mod s213_house_robber_ii;
 pub mod s217_contains_duplicate;
 pub mod s226_invert_binary_tree;
+pub mod s230_kth_smallest_element_in_a_bst;
 pub mod s235_lowest_common_ancestor_of_a_binary_search_tree;
 pub mod s238_product_of_array_except_self;
 pub mod s242_valid_anagram;
