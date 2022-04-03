@@ -14,7 +14,11 @@ export class TreeNode {
 
 export function createBinaryTree(nums: Array<number | null>, index: number): TreeNode | null {
   if (index < nums.length) {
-    const node = new TreeNode(nums[index] as number);
+    const val = nums[index];
+    if (val === null) {
+      return null;
+    }
+    const node = new TreeNode(val);
     node.left = createBinaryTree(nums, index * 2 + 1);
     node.right = createBinaryTree(nums, index * 2 + 2);
     return node;
