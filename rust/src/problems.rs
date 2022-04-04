@@ -39,6 +39,7 @@ pub mod s230_kth_smallest_element_in_a_bst;
 pub mod s235_lowest_common_ancestor_of_a_binary_search_tree;
 pub mod s238_product_of_array_except_self;
 pub mod s242_valid_anagram;
+pub mod s257_binary_tree_paths;
 pub mod s268_missing_number;
 pub mod s300_longest_increasing_subsequence;
 pub mod s322_coin_change;
