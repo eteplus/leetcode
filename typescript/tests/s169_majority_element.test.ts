@@ -1,4 +1,4 @@
-import { majorityElement } from '~/problems/s167_majority_element';
+import { majorityElement } from '~/problems/s169_majority_element';
 import { name } from './utils';
 
 describe('Majority Element', () => {

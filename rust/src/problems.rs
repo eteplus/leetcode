@@ -28,6 +28,7 @@ pub mod s144_binary_tree_preorder_traversal;
 pub mod s152_maximum_product_subarray;
 pub mod s153_find_minimum_in_rotated_sorted_array;
 pub mod s167_two_sum_ii_input_array_is_sorted;
+pub mod s169_majority_element;
 pub mod s190_reverse_bits;
 pub mod s191_number_of_1_bits;
 pub mod s198_house_robber;
