@@ -5,6 +5,7 @@ pub mod s11_container_with_most_water;
 pub mod s20_valid_parentheses;
 pub mod s21_merge_two_sorted_lists;
 pub mod s33_search_in_rotated_sorted_array;
+pub mod s35_search_insert_position;
 pub mod s49_group_anagrams;
 pub mod s53_maximum_subarray;
 pub mod s55_jump_game;
