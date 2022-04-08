@@ -33,6 +33,7 @@ pub mod s169_majority_element;
 pub mod s190_reverse_bits;
 pub mod s191_number_of_1_bits;
 pub mod s198_house_robber;
+pub mod s205_isomorphic_strings;
 pub mod s206_reverse_linked_list;
 pub mod s213_house_robber_ii;
 pub mod s217_contains_duplicate;

@@ -39,6 +39,7 @@ The solutions for Leetcode's problem
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [Rust](./rust/src/problems/s190_reverse_bits.rs), [TypeScript](./typescript/src/problems/s190_reverse_bits.ts) | Easy |
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Rust](./rust/src/problems/s191_number_of_1_bits.rs), [TypeScript](./typescript/src/problems/s191_number_of_1_bits.ts) | Easy |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [Rust](./rust/src/problems/s198_house_robber.rs), [TypeScript](./typescript/src/problems/s198_house_robber.ts) | Medium |
+| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Rust](./rust/src/problems/s205_isomorphic_strings.rs), [TypeScript](./typescript/src/problems/s205_isomorphic_strings.ts) | Easy |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Rust](./rust/src/problems/s206_reverse_linked_list.rs), [TypeScript](./typescript/src/problems/s206_reverse_linked_list.ts) | Easy |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [Rust](./rust/src/problems/s213_house_robber_ii.rs), [TypeScript](./typescript/src/problems/s213_house_robber_ii.ts) | Medium |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Rust](./rust/src/problems/s217_contains_duplicate.rs), [TypeScript](./typescript/src/problems/s217_contains_duplicate.ts) | Easy |
