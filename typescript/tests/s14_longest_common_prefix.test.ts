@@ -19,17 +19,17 @@ describe('Longest Common Prefix', () => {
       output: 'a',
     },
     {
-      input: ["dog","racecar","car"],
+      input: ['dog', 'racecar', 'car'],
       output: '',
     },
     {
-      input: ["flower","flow","flight"],
-      output: 'fl'
+      input: ['flower', 'flow', 'flight'],
+      output: 'fl',
     },
     {
       input: ['ab', 'a'],
-      output: 'a'
-    }
+      output: 'a',
+    },
   ];
   for (const example of examples) {
     test(name(example), () => {
