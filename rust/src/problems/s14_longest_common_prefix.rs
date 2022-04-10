@@ -6,8 +6,8 @@ impl Solution {
             return "".to_string();
         }
         let mut prefix = strs[0].clone();
-        for i in 1..strs.len() {
-            while !strs[i].starts_with(&prefix) {
+        for str in strs.iter().skip(1) {
+            while !str.starts_with(&prefix) {
                 prefix.pop();
                 if prefix.is_empty() {
                     return prefix;

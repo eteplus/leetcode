@@ -31,14 +31,11 @@ pub fn test() {
             output: 3,
         },
         Example {
-            input: vec![2,2,1,1,1,2,2],
+            input: vec![2, 2, 1, 1, 1, 2, 2],
             output: 2,
-        }
+        },
     ];
     for example in examples {
-        assert_eq!(
-            Solution::majority_element(example.input),
-            example.output
-        );
+        assert_eq!(Solution::majority_element(example.input), example.output);
     }
 }
