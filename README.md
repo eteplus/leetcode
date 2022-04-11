@@ -18,6 +18,7 @@ The solutions for Leetcode's problem
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Rust](./rust/src/problems/s55_jump_game.rs), [TypeScript](./typescript/src/problems/s55_jump_game.ts) | Medium |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Rust](./rust/src/problems/s56_merge_intervals.rs), [TypeScript](./typescript/src/problems/s56_merge_intervals.ts) | Medium |
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | [Rust](./rust/src/problems/s57_insert_interval.rs), [TypeScript](./typescript/src/problems/s57_insert_interval.ts) | Medium |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Rust](./rust/src/problems/s58_length_of_last_word.rs), [TypeScript](./typescript/src/problems/s58_length_of_last_word.ts) | Easy |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Rust](./rust/src/problems/s62_unique_paths.rs), [TypeScript](./typescript/src/problems/s62_unique_paths.ts) | Medium |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Rust](./rust/src/problems/s70_climbing_stairs.rs), [TypeScript](./typescript/src/problems/s70_climbing_stairs.ts) | Easy |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | [Rust](./rust/src/problems/s91_decode_ways.rs), [TypeScript](./typescript/src/problems/s91_decode_ways.ts) | Medium |
