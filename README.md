@@ -20,6 +20,7 @@ The solutions for Leetcode's problem
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | [Rust](./rust/src/problems/s57_insert_interval.rs), [TypeScript](./typescript/src/problems/s57_insert_interval.ts) | Medium |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Rust](./rust/src/problems/s58_length_of_last_word.rs), [TypeScript](./typescript/src/problems/s58_length_of_last_word.ts) | Easy |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Rust](./rust/src/problems/s62_unique_paths.rs), [TypeScript](./typescript/src/problems/s62_unique_paths.ts) | Medium |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [Rust](./rust/src/problems/s66_plus_one.rs), [TypeScript](./typescript/src/problems/s66_plus_one.ts) | Easy |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Rust](./rust/src/problems/s70_climbing_stairs.rs), [TypeScript](./typescript/src/problems/s70_climbing_stairs.ts) | Easy |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | [Rust](./rust/src/problems/s91_decode_ways.rs), [TypeScript](./typescript/src/problems/s91_decode_ways.ts) | Medium |
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Rust](./rust/src/problems/s92_reverse_linked_list_ii.rs), [TypeScript](./typescript/src/problems/s92_reverse_linked_list_ii.ts) | Medium |

@@ -15,6 +15,7 @@ pub mod s56_merge_intervals;
 pub mod s57_insert_interval;
 pub mod s58_length_of_last_word;
 pub mod s62_unique_paths;
+pub mod s66_plus_one;
 pub mod s70_climbing_stairs;
 pub mod s91_decode_ways;
 pub mod s92_reverse_linked_list_ii;
