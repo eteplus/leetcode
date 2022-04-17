@@ -43,6 +43,7 @@ pub mod s205_isomorphic_strings;
 pub mod s206_reverse_linked_list;
 pub mod s213_house_robber_ii;
 pub mod s217_contains_duplicate;
+pub mod s219_contains_duplicate_ii;
 pub mod s226_invert_binary_tree;
 pub mod s230_kth_smallest_element_in_a_bst;
 pub mod s235_lowest_common_ancestor_of_a_binary_search_tree;
