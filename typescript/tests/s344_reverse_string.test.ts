@@ -1,7 +1,7 @@
 import { reverseString } from '~/problems/s344_reverse_string';
 import { name } from './utils';
 
-describe('', () => {
+describe('Reverse String', () => {
   const examples: Array<{
     input: string[];
     output: string[];
