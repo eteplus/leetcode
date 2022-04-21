@@ -72,5 +72,6 @@ The solutions for Leetcode's problem
 | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Rust](./rust/src/problems/s572_subtree_of_another_tree.rs), [TypeScript](./typescript/src/problems/s572_subtree_of_another_tree.ts) | Easy |
 | 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Rust](./rust/src/problems/s647_palindromic_substrings.rs), [TypeScript](./typescript/src/problems/s647_palindromic_substrings.ts) | Medium |
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | [Rust](./rust/src/problems/s670_maximum_swap.rs), [TypeScript](./typescript/src/problems/s670_maximum_swap.ts) | Medium |
+| 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [Rust](./rust/src/problems/s704_binary_search.rs), [TypeScript](./typescript/src/problems/s704_binary_search.ts) | Easy |
 | 781 | [Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/) | [Rust](./rust/src/problems/s781_rabbits_in_forest.rs), [TypeScript](./typescript/src/problems/s781_rabbits_in_forest.ts) | Medium |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Rust](./rust/src/problems/s1143_longest_common_subsequence.rs), [TypeScript](./typescript/src/problems/s1143_longest_common_subsequence.ts) | Medium |
