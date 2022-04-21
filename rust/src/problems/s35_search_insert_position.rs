@@ -31,12 +31,7 @@ struct Example {
 pub fn test() {
     let examples = vec![
         Example {
-            input: (
-                vec![
-                    1, 3, 5, 6
-                ],
-                5,
-            ),
+            input: (vec![1, 3, 5, 6], 5),
             output: 2,
         },
         Example {
@@ -46,7 +41,7 @@ pub fn test() {
         Example {
             input: (vec![1, 3, 5, 6], 7),
             output: 4,
-        }
+        },
     ];
     for example in examples {
         let (nums, target) = example.input;
