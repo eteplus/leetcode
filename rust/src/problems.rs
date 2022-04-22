@@ -66,6 +66,7 @@ pub mod s557_reverse_words_in_a_string_iii;
 pub mod s572_subtree_of_another_tree;
 pub mod s647_palindromic_substrings;
 pub mod s670_maximum_swap;
+pub mod s680_valid_palindrome_ii;
 pub mod s704_binary_search;
 pub mod s781_rabbits_in_forest;
 pub mod s1143_longest_common_subsequence;
