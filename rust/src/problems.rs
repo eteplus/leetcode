@@ -69,4 +69,5 @@ pub mod s670_maximum_swap;
 pub mod s680_valid_palindrome_ii;
 pub mod s704_binary_search;
 pub mod s781_rabbits_in_forest;
+pub mod s1122_relative_sort_array;
 pub mod s1143_longest_common_subsequence;
