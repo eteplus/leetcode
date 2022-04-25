@@ -77,3 +77,4 @@ The solutions for Leetcode's problem
 | 781 | [Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/) | [Rust](./rust/src/problems/s781_rabbits_in_forest.rs), [TypeScript](./typescript/src/problems/s781_rabbits_in_forest.ts) | Medium |
 | 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | [Rust](./rust/src/problems/s1122_relative_sort_array.rs), [TypeScript](./typescript/src/problems/s1122_relative_sort_array.ts) | Easy |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Rust](./rust/src/problems/s1143_longest_common_subsequence.rs), [TypeScript](./typescript/src/problems/s1143_longest_common_subsequence.ts) | Medium |
+| 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [Rust](./rust/src/problems/s1189_maximum_number_of_balloons.rs), [TypeScript](./typescript/src/problems/s1189_maximum_number_of_balloons.ts) | Easy |

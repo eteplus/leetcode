@@ -71,3 +71,4 @@ pub mod s704_binary_search;
 pub mod s781_rabbits_in_forest;
 pub mod s1122_relative_sort_array;
 pub mod s1143_longest_common_subsequence;
+pub mod s1189_maximum_number_of_balloons;
