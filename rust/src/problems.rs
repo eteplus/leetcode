@@ -18,6 +18,7 @@ pub mod s58_length_of_last_word;
 pub mod s62_unique_paths;
 pub mod s66_plus_one;
 pub mod s70_climbing_stairs;
+pub mod s83_remove_duplicates_from_sorted_list;
 pub mod s88_merge_sorted_array;
 pub mod s91_decode_ways;
 pub mod s92_reverse_linked_list_ii;
