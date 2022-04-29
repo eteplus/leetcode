@@ -11,7 +11,7 @@ describe('Backspace String Compare', () => {
       output: true,
     },
     {
-      input: ['ab##', 'c#d#'],
+      input: ['ab##', 'ab##'],
       output: true,
     },
     {
