@@ -74,3 +74,4 @@ pub mod s844_backspace_string_compare;
 pub mod s1122_relative_sort_array;
 pub mod s1143_longest_common_subsequence;
 pub mod s1189_maximum_number_of_balloons;
+pub mod s2016_maximum_difference_between_increasing_elements;
