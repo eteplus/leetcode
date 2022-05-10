@@ -69,6 +69,7 @@ pub mod s572_subtree_of_another_tree;
 pub mod s647_palindromic_substrings;
 pub mod s670_maximum_swap;
 pub mod s680_valid_palindrome_ii;
+pub mod s692_top_k_frequent_words;
 pub mod s704_binary_search;
 pub mod s781_rabbits_in_forest;
 pub mod s844_backspace_string_compare;

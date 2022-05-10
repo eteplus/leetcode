@@ -75,6 +75,7 @@ The solutions for Leetcode's problem
 | 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Rust](./rust/src/problems/s647_palindromic_substrings.rs), [TypeScript](./typescript/src/problems/s647_palindromic_substrings.ts) | Medium |
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | [Rust](./rust/src/problems/s670_maximum_swap.rs), [TypeScript](./typescript/src/problems/s670_maximum_swap.ts) | Medium |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [Rust](./rust/src/problems/s680_valid_palindrome_ii.rs), [TypeScript](./typescript/src/problems/s680_valid_palindrome_ii.ts) | Easy |
+| 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Rust](./rust/src/problems/s692_top_k_frequent_words.rs), [TypeScript](./typescript/src/problems/s692_top_k_frequent_words.ts) | Medium |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [Rust](./rust/src/problems/s704_binary_search.rs), [TypeScript](./typescript/src/problems/s704_binary_search.ts) | Easy |
 | 781 | [Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/) | [Rust](./rust/src/problems/s781_rabbits_in_forest.rs), [TypeScript](./typescript/src/problems/s781_rabbits_in_forest.ts) | Medium |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Rust](./rust/src/problems/s844_backspace_string_compare.rs), [TypeScript](./typescript/src/problems/s844_backspace_string_compare.ts) | Easy |
