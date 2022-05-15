@@ -73,6 +73,7 @@ pub mod s692_top_k_frequent_words;
 pub mod s704_binary_search;
 pub mod s781_rabbits_in_forest;
 pub mod s844_backspace_string_compare;
+pub mod s852_peak_index_in_a_mountain_array;
 pub mod s977_squares_of_a_sorted_array;
 pub mod s1122_relative_sort_array;
 pub mod s1143_longest_common_subsequence;
