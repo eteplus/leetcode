@@ -1,4 +1,4 @@
-import { peakIndexInMountainArray } from '~/problems/s852_peak_index_in-a_mountain_array';
+import { peakIndexInMountainArray } from '~/problems/s852_peak_index_in_a_mountain_array';
 import { name } from './utils';
 
 describe('Peak Index in a Mountain Array', () => {
