@@ -62,6 +62,7 @@ pub mod s350_intersection_of_two_arrays_ii;
 pub mod s371_sum_of_two_integers;
 pub mod s377_combination_sum_iv;
 pub mod s435_non_overlapping_intervals;
+pub mod s448_find_all_numbers_disappeared_in_an_array;
 pub mod s541_reverse_string_ii;
 pub mod s543_diameter_of_binary_tree;
 pub mod s557_reverse_words_in_a_string_iii;
