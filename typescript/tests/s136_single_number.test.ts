@@ -1,4 +1,4 @@
-import { singleNumber } from '~/problems/s36_single_number';
+import { singleNumber } from '~/problems/s136_single_number';
 import { name } from './utils';
 
 describe('Single Number', () => {

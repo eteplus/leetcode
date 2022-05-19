@@ -30,6 +30,7 @@ pub mod s104_maximum_depth_of_binary_tree;
 pub mod s105_construct_binary_tree_from_preorder_and_inorder_traversal;
 pub mod s121_best_time_to_buy_and_sell_stock;
 pub mod s125_valid_palindrome;
+pub mod s136_single_number;
 pub mod s139_word_break;
 pub mod s143_reorder_list;
 pub mod s144_binary_tree_preorder_traversal;
