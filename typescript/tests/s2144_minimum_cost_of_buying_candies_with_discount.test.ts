@@ -15,17 +15,17 @@ describe('Minimum Cost of Buying Candies With Discount', () => {
       output: 8,
     },
     {
-      input: [6,5,7,9,2,2],
+      input: [6, 5, 7, 9, 2, 2],
       output: 23,
     },
     {
       input: [5, 5],
       output: 10,
-    }
+    },
   ];
   for (const example of examples) {
     test(name(example), () => {
       expect(minimumCost(example.input)).toEqual(example.output);
-    })
+    });
   }
 });

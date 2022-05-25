@@ -85,3 +85,4 @@ pub mod s1189_maximum_number_of_balloons;
 pub mod s1588_sum_of_all_odd_length_subarrays;
 pub mod s2016_maximum_difference_between_increasing_elements;
 pub mod s2022_convert_1d_array_into_2d_array;
+pub mod s2144_minimum_cost_of_buying_candies_with_discount;
