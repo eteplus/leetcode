@@ -53,7 +53,7 @@ pub fn test() {
         Example {
             input: vec![5, 5],
             output: 10,
-        }
+        },
     ];
     for example in examples {
         assert_eq!(
