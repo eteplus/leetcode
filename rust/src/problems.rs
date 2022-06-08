@@ -48,6 +48,7 @@ pub mod s217_contains_duplicate;
 pub mod s219_contains_duplicate_ii;
 pub mod s220_contains_duplicate_iii;
 pub mod s226_invert_binary_tree;
+pub mod s229_majority_element_ii;
 pub mod s230_kth_smallest_element_in_a_bst;
 pub mod s235_lowest_common_ancestor_of_a_binary_search_tree;
 pub mod s238_product_of_array_except_self;
