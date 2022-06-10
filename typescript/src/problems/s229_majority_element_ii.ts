@@ -6,6 +6,22 @@ export function majorityElement(nums: number[]): number[] {
   if (nums.length < 2) {
     return nums;
   }
+  const map: { [key: number]: number } = {};
+  const max = Math.floor(nums.length / 3);
+  const result = new Set<number>();
+  for (const num of nums) {
+    map[num] = ( map[num] ?? 0) + 1;
+    if (map[num] > max) {
+      result.add(num);
+    }
+  }
+  return [...result];
+}
+
+export function majorityElementII(nums: number[]): number[] {
+  if (nums.length < 2) {
+    return nums;
+  }
   nums.sort((a, b) => a - b);
   const max = Math.floor(nums.length / 3);
   const result: number[] = [];
