@@ -80,6 +80,7 @@ pub mod s844_backspace_string_compare;
 pub mod s852_peak_index_in_a_mountain_array;
 pub mod s917_reverse_only_letters;
 pub mod s977_squares_of_a_sorted_array;
+pub mod s1013_partition_array_into_three_parts_with_equal_sum;
 pub mod s1122_relative_sort_array;
 pub mod s1143_longest_common_subsequence;
 pub mod s1189_maximum_number_of_balloons;
