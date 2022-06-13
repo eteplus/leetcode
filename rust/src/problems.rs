@@ -89,6 +89,7 @@ pub mod s1588_sum_of_all_odd_length_subarrays;
 pub mod s1629_slowest_key;
 pub mod s1700_number_of_students_unable_to_eat_lunch;
 pub mod s1909_remove_one_element_to_make_the_array_strictly_increasing;
+pub mod s1921_eliminate_maximum_number_of_monsters;
 pub mod s1984_minimum_difference_between_highest_and_lowest_of_k_scores;
 pub mod s2016_maximum_difference_between_increasing_elements;
 pub mod s2022_convert_1d_array_into_2d_array;
