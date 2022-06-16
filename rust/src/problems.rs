@@ -87,6 +87,7 @@ pub mod s1189_maximum_number_of_balloons;
 pub mod s1200_minimum_absolute_difference;
 pub mod s1588_sum_of_all_odd_length_subarrays;
 pub mod s1629_slowest_key;
+pub mod s1636_sort_array_by_increasing_frequency;
 pub mod s1700_number_of_students_unable_to_eat_lunch;
 pub mod s1909_remove_one_element_to_make_the_array_strictly_increasing;
 pub mod s1921_eliminate_maximum_number_of_monsters;
