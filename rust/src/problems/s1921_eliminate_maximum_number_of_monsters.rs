@@ -10,10 +10,12 @@ impl Solution {
         result.sort_unstable();
         // println!("{:?}", result);
         let len = result.len();
-        for i in 1..len {
+        let mut i = 1;
+        while i < len {
             if result[i] < (i + 1) as i32 {
                 return i as i32;
             }
+            i += 1;
         }
         len as i32
     }
