@@ -97,3 +97,4 @@ pub mod s2022_convert_1d_array_into_2d_array;
 pub mod s2037_minimum_number_of_moves_to_seat_everyone;
 pub mod s2144_minimum_cost_of_buying_candies_with_discount;
 pub mod s2150_find_all_lonely_numbers_in_the_array;
+pub mod s2206_divide_array_into_equal_pairs;
