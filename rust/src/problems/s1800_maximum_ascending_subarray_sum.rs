@@ -40,9 +40,9 @@ pub fn test() {
             output: 33,
         },
         Example {
-            input: vec![3,6,10,1,8,9,9,8,9],
+            input: vec![3, 6, 10, 1, 8, 9, 9, 8, 9],
             output: 19,
-        }
+        },
     ];
     for example in examples {
         assert_eq!(Solution::max_ascending_sum(example.input), example.output);
