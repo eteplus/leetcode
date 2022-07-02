@@ -72,6 +72,7 @@ pub mod s543_diameter_of_binary_tree;
 pub mod s557_reverse_words_in_a_string_iii;
 pub mod s561_array_partition_i;
 pub mod s572_subtree_of_another_tree;
+pub mod s605_can_place_flowers;
 pub mod s647_palindromic_substrings;
 pub mod s670_maximum_swap;
 pub mod s680_valid_palindrome_ii;
