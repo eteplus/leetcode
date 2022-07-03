@@ -5,37 +5,22 @@ impl Solution {
         if n == 0 {
             return true;
         }
-        let mut prev_index = 0;
         let len = flowerbed.len();
-        let mut count = if flowerbed[0] == 0 && (len <= 2 || (len > 2 && flowerbed[1] == 0)) {
+        if len == 1 {
+            return flowerbed[0] == 0 && len == n as usize;
+        }
+        let mut count = if flowerbed[0] == 0 && flowerbed[1] == 0 {
             1
         } else {
             0
         };
-        // println!("{}", count);
-        if len <= 2 {
-            return count == n;
-        }
-        if flowerbed[1] == 1 && count == 1 {
-            count -= 1;
-        }
+        let mut prev_index = 0;
         for i in 1..len {
-            // println!("{}, {}, {}, {}", prev_index, i, i + 1 < len, count);
-            if i + 1 < len {
-                if i - 1 != prev_index
-                    && flowerbed[i - 1] == 0
-                    && flowerbed[i] == 0
-                    && flowerbed[i + 1] == 0
-                {
-                    count += 1;
-                    prev_index = i;
-                }
-            } else {
-                if i - 1 != prev_index && flowerbed[i - 1] == 0 && flowerbed[i] == 0 {
-                    count += 1;
-                    prev_index = i;
-                }
+            if i - 1 == prev_index || flowerbed[i - 1] != 0 || flowerbed[i] != 0 || (i + 1 < len && flowerbed[i + 1] != 0) {
+                continue;
             }
+            count += 1;
+            prev_index = i;
         }
         count >= n
     }
