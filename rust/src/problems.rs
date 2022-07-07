@@ -88,6 +88,7 @@ pub mod s1122_relative_sort_array;
 pub mod s1143_longest_common_subsequence;
 pub mod s1189_maximum_number_of_balloons;
 pub mod s1200_minimum_absolute_difference;
+pub mod s1394_find_lucky_integer_in_an_array;
 pub mod s1450_number_of_students_doing_homework_at_a_given_time;
 pub mod s1588_sum_of_all_odd_length_subarrays;
 pub mod s1629_slowest_key;
